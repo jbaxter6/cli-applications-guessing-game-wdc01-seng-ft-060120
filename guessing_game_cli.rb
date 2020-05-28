@@ -2,7 +2,8 @@
 
 def random_number
 #this generates a number between 1 and 6
-  rand(6) + 1
+ number = rand(6) + 1 
+ number.to_s
 end
 
 def prompt_user
@@ -10,7 +11,7 @@ def prompt_user
 end
 
 def user_input
-  input = gets.chomp.to_i
+  input = gets.chomp
   input
 end
 
