@@ -10,7 +10,7 @@ def prompt_user
 end
 
 def user_input
-  input = gets.chomp
+  input = gets.chomp.to_i
   input
 end
 
