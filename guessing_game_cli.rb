@@ -13,3 +13,13 @@ def user_input
   input = gets.chomp
   input
 end
+
+def run_guessing_game 
+  #first assign needed variable
+  game_num = random_number
+  input = user_input
+  
+    if input == "exit"
+      puts "You guessed the correct number!"
+      elsif input 
+end
