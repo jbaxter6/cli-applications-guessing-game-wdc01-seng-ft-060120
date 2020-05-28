@@ -20,6 +20,7 @@ def run_guessing_game
   input = user_input
   
     if input == "exit"
-      puts "You guessed the correct number!"
+      
       elsif input 
+        
 end
